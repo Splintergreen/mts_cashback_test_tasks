@@ -1,7 +1,10 @@
+#!/usr/bin/env python
+
 # Задание 1
 # Получить список заказов, сделанных за последние семь дней.
 
 import sqlite3
+import sys
 
 
 # Подключение к БД
@@ -18,6 +21,7 @@ cursor.execute('''
 
 # Вывод результата
 for result in cursor:
+    # sys.stdout(result)
     print(result)
 
 # Закрытие подключения

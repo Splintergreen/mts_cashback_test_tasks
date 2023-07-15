@@ -3,3 +3,5 @@ orders.sqlite
 test.py
 venv
 .vscode
+log
+Error.log

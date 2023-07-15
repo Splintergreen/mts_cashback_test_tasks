@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sqlite3
 from random import randint, random, uniform
 from datetime import datetime, timedelta
@@ -53,3 +55,5 @@ cursor.executemany('INSERT INTO cb_order_item VALUES (?, ?, ?, ?, ?)', order_ite
 # Сохранение изменений и закрытие соединения
 conn.commit()
 conn.close()
+
+print('База данных успешно создана и наполнена тестовыми записями.')
