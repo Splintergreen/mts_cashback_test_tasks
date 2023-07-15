@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-
 import sqlite3
 from random import randint, random, uniform
 from datetime import datetime, timedelta

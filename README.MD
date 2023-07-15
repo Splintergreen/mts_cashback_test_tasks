@@ -23,4 +23,21 @@ smbp_20211106_034106_app01.log.gz
 ---
 ---
 
-### Создание БД и наполнение тестовыми данными для выполнение задания №1 и №2
+### Выполнение заданий
+Клонировать репозиторий
+- git clone git@github.com:Splintergreen/mts_cashback_test_tasks.git
+- Активировать виртуальное окружение - source venv/bin/activate
+- Создать БД database.sqlite - ./create_db.py
+- Создать папку ./log и заполнить тестовыми архивами - ./archives_generate.sh
+
+### Задание №1
+./task_1.py
+
+### Задание №2
+./task_2.py
+
+### Задание №3
+./task3_errors_logs_create.sh
+
+### Задание №4
+./task4_success_count.sh

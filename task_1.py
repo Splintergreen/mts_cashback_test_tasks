@@ -19,6 +19,8 @@ cursor.execute('''
     ORDER BY request_date
 ''')
 
+print('Задача №1. Получить список заказов, сделанных за последние семь дней.')
+
 # Вывод результата
 for result in cursor:
     # sys.stdout(result)
