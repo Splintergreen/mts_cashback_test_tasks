@@ -4,6 +4,11 @@ echo "Создать директорию ./log и заполнить ее ар�
 read answer
 
 if [[ $answer =~ ^[Yy]$ ]]; then
+    if [ -d "log" ]; then
+        echo "Директория log уже существует!"
+        exit
+    fi
+
     mkdir -p ./log
     cd ./log
 
