@@ -24,8 +24,8 @@ smbp_20211106_034106_app01.log.gz
 ---
 
 ### Выполнение заданий
-Клонировать репозиторий
-- git clone git@github.com:Splintergreen/mts_cashback_test_tasks.git
+- Клонировать репозиторий - git clone git@github.com:Splintergreen/mts_cashback_test_tasks.git
+- Перейти в директорию - cd mts_cashback_test_tasks
 - Создать виртуальное окружение - python3 -m venv venv
 - Активировать виртуальное окружение - source venv/bin/activate
 - Установить зависимости - pip install -r requirements.txt
