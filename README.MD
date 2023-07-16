@@ -26,18 +26,20 @@ smbp_20211106_034106_app01.log.gz
 ### Выполнение заданий
 Клонировать репозиторий
 - git clone git@github.com:Splintergreen/mts_cashback_test_tasks.git
+- Создать виртуальное окружение - python3 -m venv venv
 - Активировать виртуальное окружение - source venv/bin/activate
-- Создать БД database.sqlite - ./create_db.py
-- Создать папку ./log и заполнить тестовыми архивами - ./archives_generate.sh
+- Установить зависимости - pip install -r requirements.txt
+- Создать БД database.sqlite в текущей директории - ./create_db.py
+- Создать папку ./log в текущей директории и заполнить тестовыми архивами - ./archives_generate.sh
 
 ### Задание №1
-./task_1.py
+Запустите скрипт - ./task_1.py
 
 ### Задание №2
-./task_2.py
+Запустите скрипт - ./task_2.py
 
 ### Задание №3
-./task3_errors_logs_create.sh
+Запустите скрипт - ./task3.sh
 
 ### Задание №4
-./task4_success_count.sh
+Запустите скрипт - ./task4.sh
